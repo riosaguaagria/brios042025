@@ -1,6 +1,7 @@
 html{
   scroll-behavior: smooth;
 }
+
 body {
   background-color: #ff5252;
 }
@@ -20,16 +21,19 @@ body {
   padding: 1rem;
   text-align: center;
 }
+
 #logo {
   width: 6.25rem;
   height: 6.25rem;
   background-color: none;
   background-image: url(Images/PortfolioLogo/brlogo.png);
 }
+
 #pageheader .container {
   background-color: none;
   min-height: auto;
 }
+
 #media {
   background-color: lightblue;
   min-height: 10rem;
@@ -38,11 +42,13 @@ body {
   background-size: cover;
   aspect-ratio: 16/9;
 }
+
 #pagecontent {
   background-color: cornflowerblue;
   min-height: 10rem;
   padding: 1rem;
 }
+
 blockquote 
 {
   background-color:red;
@@ -58,36 +64,54 @@ blockquote + span{
   margin: 0 auto;
   text-align:right;
 }
+
 span
 {
  background-color:blue;  
 }
+
 #career {
   background-color: aqua;
   min-height: 10rem;
   padding: 1rem;
 }
+
 #semester1 {
   background-color: lavender;
   min-height: 10rem;
   padding: 1rem;
 }
+
 #semester2 {
   background-color: darkslateblue;
   min-height: 10rem;
   padding: 1rem;
 }
+
 #pagefooter {
   background-color: lightskyblue;
   min-height: auto;
   padding: 1rem;
 }
+
 #pagefooter .container {
   text-align: center;
   min-height: auto;
 }
+
+#aifooter {
+  background-color: seagreen;
+  padding: 1rem;
+  min-height: auto;
+}
+
+#aifooter .container {
+  text-align: center;
+  min-height: auto;
+}
+
 #subfooter {
-  background-color: royalblue;
+  background-color: rgb(93, 131, 247);
   min-height: 10rem;
   padding: 1rem;
   text-align: center;
@@ -99,9 +123,11 @@ audio {
   background-color: red;
   border: 5px solid red;
 }
+
 a {
   color:blue ;
 }
+
 a:hover{
   color:red;
   transition: all 1s;
