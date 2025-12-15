@@ -33,6 +33,26 @@ body {
   background-color: none;
   min-height: auto;
 }
+#pageheader nav {
+text-align: center;
+}
+
+#pageheader nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#pageheader nav ul li {
+  border: 2px solid silver;
+  padding: 1rem;
+  background-color: #69EDFC;
+  margin: 2px;
+  border-radius: 10px;
+}
+
+#pageheader nav ul li:hover {
+  background-color: rgb(91, 225, 245);
+}
 
 #media {
   background-color: lightblue;
@@ -51,7 +71,6 @@ body {
 
 blockquote 
 {
-  background-color:red;
   padding:1rem;
   width:30%;
   margin:0 auto;
@@ -65,10 +84,7 @@ blockquote + span{
   text-align:right;
 }
 
-span
-{
- background-color:blue;  
-}
+
 
 #career {
   background-color: aqua;
@@ -131,4 +147,34 @@ a {
 a:hover{
   color:red;
   transition: all 1s;
+}
+
+@media screen and (min-width:850px) {
+  #pageheader nav ul{
+    background-color: none;
+    margin-top: 2rem;
+  }
+
+  #pageheader nav ul li {
+    display: inline-block;
+  }
+  
+  #pagecontent 
+  {
+    background-color: red;
+  }
+  #career {
+    background-color: blue;
+  }
+}
+
+@media screen and (min-width:1000px)
+{
+  #pagecontent 
+  {
+    background-color: rgb(26, 94, 220);
+  }
+  #career {
+    background-color: rgb(115, 235, 29);
+  }
 }
