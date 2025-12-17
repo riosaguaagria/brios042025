@@ -149,7 +149,7 @@ a:hover{
   transition: all 1s;
 }
 
-@media screen and (min-width:850px) {
+@media screen and (min-width:600px) {
   #pageheader nav ul{
     background-color: none;
     margin-top: 2rem;
