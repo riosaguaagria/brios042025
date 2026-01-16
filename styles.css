@@ -84,8 +84,6 @@ blockquote + span{
   text-align:right;
 }
 
-
-
 #career {
   background-color: aqua;
   min-height: 10rem;
@@ -118,11 +116,6 @@ blockquote + span{
 #aifooter {
   background-color: seagreen;
   padding: 1rem;
-  min-height: auto;
-}
-
-#aifooter .container {
-  text-align: center;
   min-height: auto;
 }
 

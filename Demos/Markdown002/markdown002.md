@@ -19,7 +19,7 @@
 <!-- Table Data Alignment -->
 
 | StudentID | FirstName | LastName | Grade |
-| :-------: | :-------: | -------- | :---: |
+| :-------: | :-------: | :------: | :---: |
 | 105500    | Patrick   | Moreno   |   B   |
 | 105610    | Evony     | Duran    |   F   |
 | 105500    | Edgar     | Carillo  |   A   |
