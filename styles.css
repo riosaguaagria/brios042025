@@ -117,6 +117,7 @@ blockquote + span{
   background-color: seagreen;
   padding: 1rem;
   min-height: auto;
+  text-align: center;
 }
 
 #subfooter {
