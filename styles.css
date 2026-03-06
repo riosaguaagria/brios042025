@@ -1,16 +1,24 @@
+/* Mobile View - Default */
+:root {
+  --primary-color:#69EDFC;
+  --secondary-color:lemonchiffon;
+  --tertiary-color:rebeccapurple;
+  --main-font:arial;
+}
+
 html{
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: #ff5252;
+  background-color: #52daff;
 }
 
 .container {
   min-height: 10rem;
   max-width: 75rem;
   margin: auto;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   border: 1px solid red;
   padding: 1rem;
 }
@@ -27,6 +35,7 @@ body {
   height: 6.25rem;
   background-color: none;
   background-image: url(Images/PortfolioLogo/brlogo.png);
+  margin: auto;
 }
 
 #pageheader .container {
@@ -85,7 +94,7 @@ blockquote + span{
 }
 
 #career {
-  background-color: aqua;
+  background-color: rgb(14, 221, 221);
   min-height: 10rem;
   padding: 1rem;
 }
@@ -144,6 +153,16 @@ a:hover{
 }
 
 @media screen and (min-width:600px) {
+  body {
+    background-color: rgb(0, 147, 185);
+  }
+  #logo {
+    margin: 0;
+  }
+}
+
+/* Tablet View */
+@media screen and (min-width:600px) {
   #pageheader nav ul{
     background-color: none;
     margin-top: 2rem;
@@ -161,7 +180,7 @@ a:hover{
     background-color: blue;
   }
 }
-
+/* Desktop View */
 @media screen and (min-width:1000px)
 {
   #pagecontent 
