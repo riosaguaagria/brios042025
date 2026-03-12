@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Menu</title>
+    <style>
+        /* Mobile FIrst CSS */
+        html {
+            /* Temporary - Delete */
+            height: 200%;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(35, 192, 103);
+            margin: 0;
+        }
+
+        #pageheader {
+            background-color: rgb(117, 221, 13);
+            padding: 1rem;
+            /* Default */
+            position: static;
+            
+        }
+
+        #logo {
+            width: 100px;
+            width: 100px;
+            margin: auto;
+            display: block;
+        }
+
+        #fblogoheader {
+            background-color: rgb(87, 167, 233);
+                        border-radius: 10px;
+        }
+
+        #pageheader h1 {
+            text-align: center;
+            color: aliceblue;
+            /* remove */
+            background-color: rgb(84, 171, 84);
+            padding: .5rem;
+        }
+
+        #pageheader nav {
+            background-color: rgb(80, 174, 218);
+            padding: .5rem;
+            border-radius: 10px;
+        }
+
+        #pageheader ul {
+            padding: .5rem;
+            list-style-type: none;
+            background-color: rgb(255, 221, 26);
+            /* flexbox component */
+            display: flex;
+            flex-direction: column;
+            gap: .5rem;
+        }
+
+        #pageheader li {
+            text-align: center;
+            border: 1px solid white;
+            padding: .5rem;
+            background-color:rgb(169, 169, 27) ;
+        }
+
+        #pageheader a {
+            color: aliceblue;
+            text-decoration: none;
+        }
+
+        /* None Header elements */
+        main {
+            padding: 1rem;
+        }
+
+        p {
+            line-height: 1.5;
+            color: #333;
+        }
+
+        @media screen and (min-width:650px) {
+            body {
+                background-color: rgb(255, 42, 42);
+            }
+
+            #pageheader {
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                /* Flexboc component */
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            #fblogoheader {
+                /* flexboc component */
+                display: flex;
+                gap: 1rem;
+                align-items: center;
+            }
+
+            #pageheader ul {
+                flex-direction: row;
+                justify-content: center;
+            }
+
+            #pageheader nav {
+                min-width: 400px;
+            }
+
+            #logo {
+                width: 80px;
+                height: 80px;
+            }
+
+            main {
+                padding-top: 150px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <header id="pageheader">
+
+        <!-- Start the logo and h1 -->
+        <div id="fblogoheader">
+            <img src="Images/paws_logo.png" alt="Paws and Whiskers Logo" id="logo">
+            <h1>Paws and Whiskers Logo</h1>
+        </div>
+        <!-- End the logo and h1 -->
+
+        <!-- Start navigation -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Our Pets</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+        <!-- End navigation -->
+    </header>
+
+    <main>
+        <h2>Fixed Menu</h2>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, perspiciatis illum ullam exercitationem vitae nesciunt mollitia error quibusdam in ut unde ex esse ad voluptates eum impedit hic recusandae atque et? Accusantium veritatis, laboriosam aliquid voluptatibus at incidunt tenetur libero quibusdam non atque illum maxime numquam reiciendis excepturi odio similique optio consequatur porro ea modi repellendus corrupti mollitia rem. Distinctio, labore dolorum nulla illum necessitatibus nesciunt neque natus dignissimos reiciendis vitae ut, quos molestias tenetur praesentium consequatur earum. Doloribus at perspiciatis veritatis ipsa ullam officiis molestias. Quod nihil repellendus culpa dolores adipisci harum beatae quis eum sit. Neque, nostrum officiis.
+        </p>
+    </main>
+</body>
+
+</html>
