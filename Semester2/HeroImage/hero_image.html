@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>It's a Dog's Life</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            background-color: #052524;
+            padding: 15px 30px 15px 30px;
+            border-bottom: 5px solid white;
+        }
+
+        header h1 {
+            font-size: 1.5rem;
+        }
+        /* Hero section */
+        .hero {
+            height: 85vh;
+            /* background-image: linear-gradient(red, blue, green, yellow, purple); */
+            background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/dog_on_couch.jpg);
+            padding: 20px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: top center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero-content {
+            background-color: none;
+        }
+
+        .hero-content h2 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        .hero-content p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .hero-content a {
+            display: inline-block;
+            background-color: red;
+            padding: 12px 24px 12px 24px;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .intro {
+            /* background-color: red; */
+            padding: 30px;
+        }
+
+        .intro-content {
+            background-color: white;
+            color: black;
+            line-height: 1.7;
+            padding: 1rem 1.5rem;
+            border-radius: 10px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        /* Cards */
+
+        .services {
+            background-color: rgb(5, 12, 12);
+            padding: 50px 30px;
+        }
+
+        .services h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom :50px;
+        }
+
+        .fb-cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            color: #333;
+            text-align: center;
+            border-radius: 10px;
+            border: 5px solid silver;
+            width: 300px;
+            padding: 20px;
+        }
+
+        .card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+        }
+
+        .card p {}
+
+        .card a {
+            display: inline-block;
+            background-color: red;
+            padding: 12px 24px 12px 24px;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #3E0D0A;
+            padding: 20px;
+            text-align: center;
+            border-top: 5px solid white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>It's a Dog's Life</h1>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Welcome to It's a Dog's Life!</h2>
+                <p>We love dogs more than we love humans.</p>
+                <a href="#">Get Started</a>
+            </div>
+        </section>
+        
+        <section class="intro">
+            <div class="intro-content">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse assumenda sit ea omnis aspernatur dignissimos architecto, praesentium totam dolores laboriosam placeat enim repellendus nobis. Repellat expedita quasi facere eligendi debitis dicta consectetur ratione neque. Dolores.</p>
+            </div>
+        </section>
+
+        <section class="services">
+            <h2>Our Services</h2>
+
+            <div class="fb-cards">
+                <div class="card">
+                    <h3>Card 1</h3>
+                    <p>This is a card. Add a short description.</p>
+                    <a href="#">Read More</a>
+                </div>
+
+                <div class="card">
+                    <h3>Card 2</h3>
+                    <p>This is a card. Add a short description.</p>
+                    <a href="#">Read More</a>
+                </div>
+
+                <div class="card">
+                    <h3>Card 3</h3>
+                    <p>This is a card. Add a short description.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 It's a Dog's life. All rights reserved.</p>
+
+    </footer>
+
+</body>
+</html>
