@@ -113,6 +113,36 @@ blockquote + span{
   padding: 1rem;
 }
 
+#worksamples {
+  background-color: blue;
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#worksamples ul {
+  list-style-type: none;
+}
+
+#worksamples i {
+  color: #52daff;
+}
+
+#certificates {
+  background-color: rgba(69, 220, 19, 0.671);
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#certificates ul {
+  list-style-type: none;
+}
+
+#certificates i {
+  color: #35cef9;
+  font-size: .9rem;
+
+}
+
 #pagefooter {
   background-color: lightskyblue;
   min-height: auto;
